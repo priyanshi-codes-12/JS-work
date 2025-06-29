@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #548687;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.container{
+    height: 68vh; /*web pg no 70% bhag container no.*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} 
+.game{
+    height: 60vmin; /*container no 60%*/
+    width: 60vmin;
+    margin: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.btn{
+    height: 18vmin; /*bdha ne approx 20% jethi 3 lines ma ave.*/
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem black(0,0,0,0.3);
+    font-size: 10vmin;
+    color: #b0413e;
+    cursor: pointer;
+    background-color: #ffffc7;
+}
+h1{
+    font-size: 4rem;
+    /* font-style:inherit; */
+    /* font-weight: bold; */
+}
+#resetBtn{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#newBtn{
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: #191913;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.msg-container{
+    /* visibility: hidden; */
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 6vmin;
+}
+.hide{
+    display: none;
+}

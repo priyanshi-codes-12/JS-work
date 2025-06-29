@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slidebar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <section class="sidebar">
+        <div id="upperHalf">
+            <div class="first">
+                <h4>Storeify</h4>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search for anything...">
+                </div>
+            </div>
+            <div class="second">
+                <h6>Main</h6>
+                <div class="mainLink">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </div>
+                <div class="mainLink">
+                    <i class="fa-solid fa-box"></i>
+                    <span>Order</span>
+                </div>
+                <div class="mainLink">
+                    <i class="fa-solid fa-folder-closed"></i>
+                    <span>Documentation</span>
+                </div>
+                <div class="mainLink">
+                    <i class="fa-solid fa-map"></i>
+                    <span>Map Overview</span>
+                </div>
+                <div class="mainLink">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Statistics</span>
+                </div>
+                <h6 id="h6">Communication</h6>
+                <div class="mainLink">
+                    <i class="fa-solid fa-inbox"></i>
+                    <span>Inbox</span>
+                </div>
+                <div class="mainLink">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Couriers</span>
+                </div>
+            </div>
+        </div>
+        <div class="lowerHalf">
+            <div class="mainLink">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </div>
+            <div class="mainLink">
+                <i class="fa-solid fa-question-circle"></i>
+                <span>Help</span>
+            </div>
+           
+            <div class="footer">
+                <div class="imgName">
+                    <img src="./2pic.jpg" alt="photo">
+                    <div class="details">
+                        <h6>Priyanshi Patel</h6>
+                        <span id="email">priyanshi@abc.com</span>
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-from-bracket"></i>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="content">
+        <header>
+            <div class="leftHead">
+                <div class="imgName">
+                    <img src="./2pic.jpg" alt="photo">
+                    <div class="details">
+                        <h5 style="font-weight: 900;">Priyanshi Patel</h5>
+                        <span id="email">priyanshi@abc.com</span>
+                    </div>
+                </div>
+                <span id="currentDate"></span>
+            </div>
+            <div class="rightHead">
+                <div class="search2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search">
+                </div>
+                <i class="fa-solid fa-bell" id="bell"></i>
+                <i class="fa-solid fa-message" id="message"></i>
+            </div>
+        </header>
+        <div class="mainContent">
+            <div class="leftChat">
+                <div class="person">
+                    <img src="./yug.jpg" alt="">
+                    <h4 id="name">Yug Patel</h4>
+                    <div id="mail">@yugpatel</div>
+                    <div class="contact">
+                        <i class="fa-solid fa-phone icons"></i>
+                        <i class="fa-solid fa-video icons"></i>
+                        <i class="fa-solid fa-info icons"></i>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatSection">
+                        today
+                    </div>
+                    <div class="msg">
+                        <input type="text" placeholder="Write a message...">
+                        <i class="fa-solid fa-microphone m"></i>
+                        <i class="fa-solid fa-smile s"></i>
+                        <i class="fa-solid fa-paperclip p"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="rightContent">
+                <div class="team">
+                    <h3>Team<h4>
+                    <div class="emp">
+                        <img src="./yug.jpg" alt="">
+                        <div class="info">
+                            <h6>Yug Patel</h6>
+                            <div class="post">Project manager</div>
+                            
+                        </div>
+                        <i class="fa-solid fa-envelope envelope1"></i>
+                    </div>
+                    <div class="emp">
+                        <img src="./pinky.jpg" alt="">
+                        <div class="info">
+                            <h6>Pinky Patel</h6>
+                            <div class="post">Sales manager</div>
+                        </div>
+                        <i class="fa-solid fa-envelope envelope2"></i>
+                    </div>
+                    <div class="emp">
+                        
+                            <img src="./priyanshiDP.jpeg" alt="">
+                            <div class="info">
+                                <h6>Priyanshi Patel</h6>
+                                <div class="post">UX/UI designer</div>
+                            </div>
+                        <i class="fa-solid fa-envelope envelope3"></i>
+                    </div>
+                    <hr >
+                    <div class="add">
+                        <i class="fa-solid fa-plus plus"></i>
+                        <span id="invite">Invite new team member</span>
+                    </div>    
+                </div>
+                <div class="meetings">
+                    <span id="meet">MEETING</span>
+                    <h4>Project onboarding</h4>
+                    <span id="des">Add description of your meeting</span>
+                    <span id="Date"></span>
+                    <span id="time"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
